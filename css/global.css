@@ -215,7 +215,10 @@ nav.browse a, nav.music a {
     {
         display : none; 
     }
-  
+   .search 
+   {
+       display :none;
+   }
 }
 
 
