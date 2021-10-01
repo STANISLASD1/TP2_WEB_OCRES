@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
-    font-style: normal; 
+    font-style: normal;
     font-weight: bold;
 }
 
@@ -11,6 +11,7 @@
 
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
+    
 }
 
 a {
@@ -208,6 +209,17 @@ nav.browse a, nav.music a {
     padding-left: 20px;
     padding-top: 2px;
 }
+
+
+
+/*.container {  
+  sm: 540px;
+  md: 720px;
+  lg: 960px;
+  xl: 1140px ;
+}*/
+
+
 
 nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
 nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
