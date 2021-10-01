@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 	<head>
 		<meta charset="UTF-8" />
+		<meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+		/>
 		<title>Rdio - Luke Chesser</title>
 
-		<link rel="stylesheet" href="css/reset.css"/>
-		<link rel="stylesheet" href="css/global.css"/>
+		<link rel="stylesheet"  href="css/reset.css"/>
+		<link rel="stylesheet" media="screen and (max-width: 93.75rem)" href="css/global.css"/>
 		<!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 	</head>
-	<body>
-	
-
-	
+	<body>	
 		<header>
-			
-			
 				<div class="wrapper">
 					<div class= "row justify-content-center">	
 					          <div class ="col-2">
@@ -32,9 +31,18 @@
 					</form>
 				    </div>
 				<div class="col-5">
-					<div class="user">
-						<a href="#">Luke Chesser</a>
-					</div>
+					
+						<div class="dropdown">
+							<button class="btn user dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Luke Chesser
+							</button>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							  <a class="dropdown-item" href="#">Music</a>
+							  <a class="dropdown-item" href="#">Profil</a>
+							  <a class="dropdown-item" href="#">Concert</a>
+							</div>
+						  </div>
+					
 				</div>
 				</div>
 		</div>
@@ -43,11 +51,12 @@
 
 		<div class="container">
 			<div class="row justify-content-center">
-			  <div class="col-2">
-				  <div class = "d-none d-md-block">
+			  <div class="col-auto">
+				  <div class = "d-none d-lg-block">
 				<aside>
-			<h3>Browse</h3>
+			
 			<nav class="browse">
+				<h3>Browse</h3>
 				<ul class="main">
 					<li><a class="heavy" href="#">Heavy Rotation</a></li>
 					<li><a class="recent" href="#">Recent Activity</a></li>
@@ -55,8 +64,9 @@
 					<li><a class="new" href="#">New Releases</a></li>
 				</ul>
 			</nav>
-			<h3>Your music</h3>
+			
 			<nav class="music">
+				<h3>Your music</h3>
 				<ul class="main">
 					<li><a class="collection" href="#">Collection</a></li>
 					<li><a class="history" href="#">History</a></li>
@@ -66,7 +76,7 @@
 	</div>
 	</div>
 
- <div class="col-10">
+ <div class="col">
 		<main>
 			
 			
@@ -82,7 +92,7 @@
 						
 						</aside>
 						</div>
-						<div class ="col-10">
+						<div class ="col-auto">
 						<div class="name">
 							<h1>Luke Chesser</h1>
 						
@@ -93,7 +103,7 @@
 				</div>
 				<div class="stats-links">
 					<div class ="row">
-							<div class = "col-10">
+							<div class = "col">
 						<section class="stats">
 							<span>2 Playlists</span>
 							<span>4 Reviews</span>
@@ -101,7 +111,8 @@
 							<span>13 Following</span>
 						</section>
 					        </div>
-                    <div class ="col-2">
+							
+                    <div class ="col-auto">
 					<div class="links">
 						<div>
 							<a href="#">Collection</a>
@@ -114,10 +125,10 @@
 			
 			</header>
 			<div class ="row">
-				<div class ="col-10">
+				<div class ="col">
 			Top Album
 			</div>
-			<div class ="col-2">
+			<div class ="col-auto">
 			<div>
 				<a class="station" href="#">Start Station</a>
 			</div>
